@@ -2,7 +2,8 @@
 * text=auto
 
 *.cpp linguist-vendored
-*.CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
 *.h linguist-vendored
 *.hpp linguist-vendored
 *.c linguist-vendored
