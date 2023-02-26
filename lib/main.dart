@@ -11,6 +11,15 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // MaterialApp, CupertinoApp 중 하나를 선택해야 한다.
-    return CupertinoApp();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Hello World"),
+        ),
+        body: Center(
+          child: Text("Hello World"),
+        ),
+      ),
+    );
   }
 }
