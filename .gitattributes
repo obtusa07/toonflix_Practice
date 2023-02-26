@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+*.cpp linguist-vendored
+CMAKELists.txt linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.c linguist-vendored
+*.cc linguist-vendored
